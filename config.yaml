@@ -1,0 +1,4 @@
+FOO:
+    - BAR: ${INT:1}
+    - BAR: ${FLOAT:1.1}
+    - BAR: ${BOOL:True}

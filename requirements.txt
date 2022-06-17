@@ -1,5 +1,0 @@
-PyYAML==6.0
-
-# test
-pytest
-mock==4.0.3

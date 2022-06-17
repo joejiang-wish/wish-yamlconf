@@ -125,7 +125,5 @@ if __name__ == "__main__":
         - BAR: ${BOOL:True}
         """
         config = yaml.safe_load(yaml_str)
-        print('pod_config: ', config)
-
     except Exception as e:
         pass

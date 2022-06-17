@@ -115,8 +115,8 @@ def setup_yaml_parser():
 if __name__ == "__main__":
     try:
         setup_yaml_parser()
-    #   with open("config.yaml", "rb") as yaml_str:
-    #       config = yaml.safe_load(yaml_str)
+        # with open("config.yaml", "rb") as yaml_str:
+        #     config = yaml.safe_load(yaml_str)
 
         yaml_str = """
         FOO:

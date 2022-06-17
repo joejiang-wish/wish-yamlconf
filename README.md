@@ -3,13 +3,13 @@
 Compared to otter-v1, app with otter-v2 should 
 
 - have config files stored in it’s repo.
-- have config loading logic if otter is not enabled. (because otter is not provided at local, transparent)
+- Should have config loading logic if otter is not enabled. (because otter is not provided locally, be transparent)
 
 So otter-v2 add a `common config class` to meet the requirement.
 
-It's not only for otter-v2, but can be a standard of loading config to other micro-services.
+It's not only for otter-v2, but can be a standard way of loading config to other micro-services.
 
-## how to use
+## How to use
 
 - app use a `config.yaml` as template, such as
 ```yaml
@@ -32,8 +32,8 @@ with open("config.yaml", "rb") as yaml_str:
 ```
 
 
-## Examples
-Check `src/test_yaml_parser::TestConfigEnvironmentVariables`
+## All cases
+Check [`test_yaml_parser.py::TestConfigEnvironmentVariables`](test/test_yaml_parser.py)
 
 
 ## TODO
